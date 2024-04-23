@@ -7,20 +7,52 @@ window.onload = () => {
   }
   makeMap()
 }
-  function sosVibration() {
-    setTimeout(function() {
-        window.navigator.vibrate(200);
-    }, 0);
+function sosVibration() {
 
-    setTimeout(function() {
-        window.navigator.vibrate(1000);
-    }, 500);
+  setTimeout(function() {
+      window.navigator.vibrate(200);
+  }, 0);
 
-    setTimeout(function() {
-        window.navigator.vibrate(200);
-    }, 1500);
-  }
-  
+
+  setTimeout(function() {
+      window.navigator.vibrate(200);
+  }, 1000);
+
+  setTimeout(function() {
+      window.navigator.vibrate(200);
+  }, 2000);
+
+
+  setTimeout(function() {
+
+      window.navigator.vibrate(1000);
+  }, 2500);
+
+  setTimeout(function() {
+
+      window.navigator.vibrate(1000);
+  }, 4500);
+
+  setTimeout(function() {
+
+      window.navigator.vibrate(1000);
+  }, 6500);
+
+
+  setTimeout(function() {
+
+      window.navigator.vibrate(200);
+  }, 8500);
+
+
+  setTimeout(function() {
+      window.navigator.vibrate(200);
+  }, 9500);
+
+  setTimeout(function() {
+      window.navigator.vibrate(200);
+  }, 10500);
+}
 
 function makeMap(){
   var map = L.map('map').fitWorld();
