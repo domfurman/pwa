@@ -1,20 +1,33 @@
 li {
   display: inline;
 }
-body{
-  font-size: 1000px;
-}
-#authors {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  font-size: 1000px;
-}
 
 #sos {
-  border: 5px solid;
   margin: auto;
   width: 50%;
   padding: 10px;
   text-align: center;
 }
+
+#mapa{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+#map {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 400px;
+  /* or as desired */
+  width: 100%;
+  /* This means "100% of the width of its container", the .col-md-8 */
+}
+
+.centered-list {
+  display: flex;
+  justify-content: center;
+}
+
