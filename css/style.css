@@ -1,3 +1,19 @@
 li {
   display: inline;
 }
+body{
+  font-size: 1000px;
+}
+#authors {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 1000px;
+}
+
+#sos {
+  border: 5px solid;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
