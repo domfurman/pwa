@@ -8,19 +8,17 @@ window.onload = () => {
   makeMap()
 }
   function sosVibration() {
+    setTimeout(function() {
+        window.navigator.vibrate(200);
+    }, 0);
 
-    setTimeout(window.navigator.vibrate(2000), 1500);
-    setTimeout(window.navigator.vibrate(2000), 1500);
-    setTimeout(window.navigator.vibrate(2000), 1500);
-  
-    setTimeout(window.navigator.vibrate(6000), 1500);
-    setTimeout(window.navigator.vibrate(6000), 1500);
-    setTimeout(window.navigator.vibrate(6000), 1500);
-  
-    setTimeout(window.navigator.vibrate(2000), 1500);
-    setTimeout(window.navigator.vibrate(2000), 1500);
-    setTimeout(window.navigator.vibrate(2000), 1500);
-  
+    setTimeout(function() {
+        window.navigator.vibrate(1000);
+    }, 500);
+
+    setTimeout(function() {
+        window.navigator.vibrate(200);
+    }, 1500);
   }
   
 
